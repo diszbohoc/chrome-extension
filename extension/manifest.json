@@ -2,9 +2,9 @@
     "name": "Search Extension",
     "version": "1.0",
     "description": "Batch search from list!",
-	"permissions": ["activeTab","declarativeContent","storage"],
+	"permissions": ["activeTab","declarativeContent","storage","bookmarks"],
 	"background": {
-      "scripts": ["scripts/background.js"],
+      "scripts": ["scripts/background.js","bookmark/bookmarks.js"],
       "persistent": false
     },
     "page_action": {
